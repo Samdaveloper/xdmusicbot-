@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Abhimanyu (@Venom_Hain_Hum)",
+        f"Powered By: [ S♡K ] (@lover_jerry)",
         (255, 255, 255),
         font=font,
     )
@@ -140,7 +140,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/FriendshipWorldGroup")
+                            url=f"https://t.me/maitri_chi_duniya")
 
                 ]
             ]
@@ -179,7 +179,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/FriendshipWorldGroup")
+                            url=f"https://t.me/maitri_chi_duniya")
 
                 ]
             ]
@@ -195,7 +195,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/FriendshipWorldGroup")
+                            url=f"https://t.me/maitri_chi_duniya")
 
                 ]
             ]
@@ -250,7 +250,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/FriendshipWorldGroup")
+                            url=f"https://t.me/maitri_chi_duniya")
 
                 ]
             ]
