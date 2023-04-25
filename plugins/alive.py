@@ -33,19 +33,19 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/d219eba30ef6e639dc955.jpg",
+        photo=f"https://graph.org/file/11fb641b1724ec95a9420.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀʙʜɪᴍᴀɴʏᴜ ʀᴀɴᴀᴡᴀᴛ](https://t.me/VeNom_HaiN_HuM)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟɪsʜᴀ sᴇʀᴠᴇʀ](https://t.me/FriendshipWorldGroup)
-┣★ sᴜᴘᴘᴏʀᴛ : [sʜᴀʏᴀʀɪ ᴄʜᴀɴɴᴇʟ](https://t.me/Sad_shayari_lovers)
-┣★ sᴏᴜʀᴄᴇ  : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/Team-Alisha/AlishaPlayer)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [S♡K❤️‍🔥](https://t.me/lover_jerry)
+┣★ ᴜᴘᴅᴀᴛᴇs : [S♡K❤️‍🔥](https://t.me/maitri_chi_duniya)
+┣★ sᴜᴘᴘᴏʀᴛ : [S♡K❤️‍🔥](https://t.me/king_x_network)
+┣★ sᴏᴜʀᴄᴇ  : [S♡K❤️‍🔥](https://t.me/lover_jerry)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/VeNom_HaiN_HuM) ...
+ᴅᴍ ᴛᴏ ᴍʏ [S♡K❤️‍🔥](https://t.me/lover_jerry) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -59,16 +59,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "aditya"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/S♡K", "/alive", "S♡K"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/46ede9ce0c467ab112c63.png",
+        photo="https://graph.org/file/11fb641b1724ec95a9420.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/FriendshipWorldGroup")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/maitri_chi_duniya")
                 ]
             ]
         ),
@@ -84,7 +84,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/Team-Alisha/AlishaPlayer")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/lover_jerry")
                 ]
             ]
         ),
