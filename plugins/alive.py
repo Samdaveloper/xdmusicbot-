@@ -39,8 +39,8 @@ async def start_(client: Client, message: Message):
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [⋆ •⨻ ᴥᴅ](https://t.me/lover_jerry)
-┣★ ᴜᴘᴅᴀᴛᴇs : [⋆ •⨻ ᴥᴅ](https://t.me/maitri_chi_duniya)
-┣★ sᴜᴘᴘᴏʀᴛ : [⋆ •⨻ ᴥᴅ](https://t.me/king_x_network)
+┣★ ᴜᴘᴅᴀᴛᴇs : [⋆ •⨻ ᴥᴅ](https://t.me/lover_jerry_XD)
+┣★ sᴜᴘᴘᴏʀᴛ : [⋆ •⨻ ᴥᴅ](https://t.me/maitri_chi_duniya)
 ┣★ sᴏᴜʀᴄᴇ  : [⋆ •⨻ ᴥᴅ](https://t.me/lover_jerry)
 ┗━━━━━━━━━━━━━━━━━┛
 
