@@ -214,10 +214,10 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷...**"
             )
-        await lel.edit("**🔎 Sɘɑɤƈɦɩɳʛ ...**")
+        await lel.edit("✨")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
+        await lel.edit("💖")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -272,7 +272,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Ʌɭɩsɧɑ🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**💥⋆ •⨻ ᴥᴅ🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -289,7 +289,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Ʌɭɩsɧɑ🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃".format(),
         )
 
     os.remove("final.png")
@@ -304,7 +304,7 @@ async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph//file/d219eba30ef6e639dc955.jpg", 
-                             caption="**💥 Ʌɭɩsɧɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃"
     )
 
 
@@ -315,7 +315,7 @@ async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph//file/d219eba30ef6e639dc955.jpg", 
-                             caption="**💥 Ʌɭɩsɧɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃"
     )
 
 
@@ -330,7 +330,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 Ʌɭɩsɧɑ 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃")
     else:
         queues.task_done(chat_id)
         
@@ -349,7 +349,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph//file/d219eba30ef6e639dc955.jpg", 
-                             caption=f'**💥 Ʌɭɩsɧɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃'
    ) 
 
 
@@ -365,7 +365,7 @@ async def stop(_, message: Message):
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph//file/d219eba30ef6e639dc955.jpg", 
-                             caption="**💥 Ʌɭɩsɧɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃"
     )
 
 
@@ -383,5 +383,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph//file/d219eba30ef6e639dc955.jpg",
-                              caption="**💥 Ʌɭɩsɧɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃"
     )
