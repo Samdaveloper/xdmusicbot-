@@ -3,7 +3,7 @@
     "logo": "https://telegra.ph//file/91fb45fd54c0ed9d299c1.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Team-Alisha/AlishaPlayer",
+    "repository": "https://github.com/Samdaveloper/xdmusicbot",
     "stack": "container",
     "env": {
         "API_ID": {
