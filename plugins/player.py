@@ -289,7 +289,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"💡 **Track added to queue »** `{position}`\n\n🏷 **Name:** [{title[:35]}...]({url})\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {message.from_user.mention}",
+            caption="⇆    ㅤ ◁ㅤ | |ㅤ ▷ㅤ    ↻",
         )
 
     os.remove("final.png")
